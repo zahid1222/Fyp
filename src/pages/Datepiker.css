@@ -1,0 +1,21 @@
+.date-picker-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  .date-picker-input-container {
+    position: relative;
+  }
+  
+  .date-picker-input-container input[type="date"] {
+    padding-right: 2.5rem;
+  }
+  
+  .date-picker-icon {
+    position: absolute;
+    top: 50%;
+    right: 0.5rem;
+    transform: translateY(-50%);
+  }
+  
